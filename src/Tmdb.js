@@ -53,10 +53,94 @@ export default {
         ),
       },
       {
+        slug: "adventure",
+        title: "Aventura",
+        items: await basicFetch(
+          `/discover/movie?with_genres=12&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
+        slug: "animation",
+        title: "Animação",
+        items: await basicFetch(
+          `/discover/movie?with_genres=16&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
         slug: "comedy",
         title: "Comédia",
         items: await basicFetch(
           `/discover/movie?with_genres=35&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
+        slug: "crime",
+        title: "Crime",
+        items: await basicFetch(
+          `/discover/movie?with_genres=80&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
+        slug: "drama",
+        title: "Drama",
+        items: await basicFetch(
+          `/discover/movie?with_genres=18&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
+        slug: "family",
+        title: "Família",
+        items: await basicFetch(
+          `/discover/movie?with_genres=10751&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
+        slug: "fantasy",
+        title: "Fantasia",
+        items: await basicFetch(
+          `/discover/movie?with_genres=14&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
+        slug: "history",
+        title: "História",
+        items: await basicFetch(
+          `/discover/movie?with_genres=36&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
+        slug: "music",
+        title: "Música",
+        items: await basicFetch(
+          `/discover/movie?with_genres=10402&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
+        slug: "mystery",
+        title: "Mistério",
+        items: await basicFetch(
+          `/discover/movie?with_genres=9648&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
+        slug: "science fiction",
+        title: "Ficção Científica",
+        items: await basicFetch(
+          `/discover/movie?with_genres=878&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
+        slug: "thriller",
+        title: "Suspense",
+        items: await basicFetch(
+          `/discover/movie?with_genres=53&language=pt-BR&api_key=${API_KEY}`
+        ),
+      },
+      {
+        slug: "war",
+        title: "Guerra",
+        items: await basicFetch(
+          `/discover/movie?with_genres=10752&language=pt-BR&api_key=${API_KEY}`
         ),
       },
       {
