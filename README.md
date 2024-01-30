@@ -1,15 +1,16 @@
-# Clone-Netflix
+# Clone Netflix
 
-⚡ Clone do NETFLIX em REACTJS
+⚡ During the development of the Netflix Clone in REACTJS, The Movie Database API was utilized to gather necessary information about movies and series. Using the API key, I conducted REST tests to generate JSON with all the required data, and the Online Json Viewer platform was employed to format the JSON in a readable and organized manner.
 
-Foi utilizado a API The Movie Database para coletar as informações necessárias de filmes e séries. A partir da chave criada na API, utilizei Rest test para gerar o JSON com todos os dados e a plataforma Online Json Viewer para formartar o JSON.
+# Acquired skills
+
+![React](https://img.shields.io/badge/-ReactJS-0D1117?style=for-the-badge&logo=React&labelColor=0D1117)&nbsp;
+![css](https://img.shields.io/badge/-css-0D1117?style=for-the-badge&logo=css3&labelColor=0D1117)&nbsp;
+![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=JavaScript&labelColor=0D1117)&nbsp;
+![VSCODE](https://img.shields.io/badge/-VSCODE-0D1117?style=for-the-badge&logo=visual-studio&labelColor=0D1117)&nbsp;
+
+# Useful links
 
 https://www.themoviedb.org/documentation/api <br/>
 http://jsonviewer.stack.hu <br/>
 https://resttesttest.com <br/>
-
-## Imagens da aplicação
-
-![image](https://user-images.githubusercontent.com/49170152/196830327-66c8af74-35eb-47c0-9ac5-d2edb70e045d.png)
-
-![image](https://user-images.githubusercontent.com/49170152/196830347-98b0a2ea-ff88-414d-8e0e-4f7cc326f69a.png)
